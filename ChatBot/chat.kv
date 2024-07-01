@@ -1,0 +1,41 @@
+#:kivy 2.0.0
+#:import MDScreen kivymd.uix.screen.MDScreen
+#:import MDTopAppBar kivymd.uix.toolbar.MDTopAppBar
+#:import MDTextField kivymd.uix.textfield.MDTextField
+#:import MDRaisedButton kivymd.uix.button.MDRaisedButton
+#:import BoxLayout kivy.uix.boxlayout.BoxLayout
+
+MDScreen:
+    MDTopAppBar:
+        title: "ChatBot"
+        md_bg_color: app.theme_cls.primary_color
+
+    BoxLayout:
+        orientation: 'vertical'
+        padding: 10
+        spacing: 10
+
+        MDTextField:
+            id: history_text
+            hint_text: "Chat History"
+            readonly: True
+            multiline: True
+
+        BoxLayout:
+            orientation: 'horizontal'
+            size_hint_y: None
+            height: "48dp"
+            spacing: 10
+
+            MDTextField:
+                id: input_text
+                hint_text: "Type here..."
+                size_hint_x: None
+                width: "400dp"
+                on_text_validate: app.send_message
+
+            MDRaisedButton:
+                text: "Send"
+                size_hint_x: None
+                width: "100dp"
+                on_release: app.send_message

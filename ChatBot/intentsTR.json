@@ -1,0 +1,42 @@
+{
+  "intents": [
+    {
+      "tag": "selamlaşma",
+      "patterns": ["Merhaba","Selam","Nasılsın?","Orada kimse var mı?","İyi günler"],
+      "responses": ["Merhaba, ziyaretiniz için teşekkürler","Merhaba, sana nasıl yardımcı olabilirim?","Merhaba, ne yapabilirim?"]
+    },
+    {
+      "tag": "veda",
+      "patterns": ["Hoşça kal","Sonra görüşürüz","Güle güle"],
+      "responses": ["Sonra görüşürüz, ziyaretiniz için teşekkürler","İyi günler dilerim","Hoşça kal! Bir daha yakında gelin."]
+    },
+    {
+      "tag": "teşekkürler",
+      "patterns": ["Teşekkürler","Sağ ol","Bu yardımcı oldu","Çok teşekkürler!"],
+      "responses": ["Yardım etmekten mutluluk duyarım!","Her zaman!","Benim için bir zevk"]
+    },
+    {
+      "tag": "ürünler",
+      "patterns": ["Hangi ürünlere sahipsiniz?","Neler var?","Ne satıyorsunuz?"],
+      "responses": ["Kahve ve çay satıyoruz","Kahve ve çayımız var"]
+    },
+    {
+      "tag": "ödemeler",
+      "patterns": ["Kredi kartı kabul ediyor musunuz?","Mastercard geçerli mi?","Paypal ile ödeme yapabilir miyim?","Sadece nakit mi?"],
+      "responses": ["VISA, Mastercard ve Paypal kabul ediyoruz","En yaygın kredi kartlarını ve Paypal'i kabul ediyoruz"]
+    },
+    {
+      "tag": "teslimat",
+      "patterns": ["Teslimat ne kadar sürer?","Kargo ne kadar zaman alır?","Ne zaman teslim alırım?"],
+      "responses": ["Teslimat 2-4 gün sürer","Kargo 2-4 gün sürer"]
+    },
+    {
+      "tag": "komik",
+      "patterns": ["Bir şaka yap!","Bana komik bir şeyler anlat!","Bir şaka biliyor musun?"],
+      "responses": [
+        "Neden hipster ağzını yaktı? Kahveyi soğumadan içtiği için.",
+        "Bufalo, oğlu üniversiteye gittiğinde ne dedi? Bizon."
+      ]
+    }
+  ]
+}

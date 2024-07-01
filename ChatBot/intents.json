@@ -1,0 +1,153 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi","Hey","Is anyone there?","Hello","Good day","What's Up?"],
+      "responses": ["Hey :-)","Hello","Hi there, What's Up?","Hi there,I hope everything is good"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": ["See you later","Have a nice day","Bye! Come back again soon."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thanks a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },{
+    "tag": "howareyou",
+    "patterns": ["How are you?","How is it going?","What do you do?"],
+    "responses": ["I'm feeling alright, I've been busy dancing all day. What about you?",
+      "I'm doing great, I climbed Everest today. What about you?",
+      "I'm feeling a bit dizzy, I've been coding all day. What about you?"]
+    },
+    {
+    "tag": "plans",
+    "patterns": ["Do you have any plans today?","What are you doing today?","Are you free today?","Are you free?"],
+    "responses": ["Yes, I have plans today.","Yes, I will go to the gym today.",
+      "Yes, I have to clean the house today.", "No, I'm free all day.","I will save the world today.",
+      "Today I have a fight scheduled in the ring with a gorilla.","No, I don't have a plan. I'll just watch the wall."]
+    },
+      {
+      "tag": "howareyouresponese",
+      "patterns": ["I'm doing alright, thank you.",
+          "I'm Okay",
+          "I'm great, thanks for asking.",
+          "I'm okay, just a bit tired.",
+          "I'm feeling fantastic today, thanks!",
+          "I've been better, but I'm hanging in there.",
+          "I'm not doing so great, to be honest.",
+          "I'm feeling pretty good overall.",
+          "I'm alright, just dealing with some stress.",
+          "I'm feeling a bit under the weather, unfortunately.",
+          "I'm doing fine, thanks for asking."
+      ],
+      "responses": ["I'm glad to hear that you're okay.",
+
+            "It's good to know you're alright. If you need to talk about anything, I'm here.",
+
+
+
+            "It's great that you're feeling okay. If you ever need to chat, I'm just a message away.",
+
+            "I'm relieved to hear that you're doing alright. Remember to take care of yourself."
+
+      ]
+    },
+    {
+      "tag": "meals",
+      "patterns": ["What can I eat for Breakfast?","What can I eat for Lunch?","What can I eat for Dinner?"],
+      "responses": ["you can eat boiled egg, matchbox cheese, 1 whole cucumber, multigrain bread for breakfast.",
+        "you can eat pancakes, butter, jam for breakfast.",
+        "You can eat pasta with curry sauce for lunch.","you can eat hamburger for lunch.",
+        "You can eat broccoli with mashed potatoes next to steak for dinner.",
+        "You can have fish with cooked vegetables and a nice glass of wine for dinner."
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": ["Tell me a joke!","Tell me something funny!","Do you know a joke?"],
+      "responses": ["+ What's a cat's favorite dessert? \n - A bowl full of mice-cream.",
+        "+What do you call a guy who's really loud? \n -Mike.",
+        "+Why did the student eat his homework? \n -Because the teacher told him it was a piece of cake.",
+        "+What's Thanos' favorite app on his phone? \n -Snapchat.",
+        "+What is a room with no walls? \n -A mushroom.",
+        "+How did Benjamin Franklin feel holding his kite when he discovered electricity? \n -Shocked!"
+
+
+      ]
+    },
+    {
+      "tag": "heads-tail",
+      "patterns": ["Heads or Tail?"],
+      "responses": ["Tail","Head"]
+    },
+    {
+      "tag": "yesnoquestions",
+      "patterns": ["Will I meet someone special in the next month?",
+        "Will I get the job offer I've been hoping for?",
+        "Will I have a successful business venture this year?",
+        "Will I find a new place to live within the next six months?",
+        "Will I travel to a new country within the next year?",
+        "Will I receive unexpected good news in the near future?",
+        "Will I overcome the challenges I'm currently facing?",
+        "Will I achieve my fitness goals by the end of the year?",
+        "Will I make a new friend who will become very important to me?",
+        "Will I have a memorable experience that I'll cherish forever?"
+      ],
+      "responses": ["No, it doesn't seem likely.",
+        "Yes, it's definitely on the horizon.",
+        "You should work hard for that; it's within reach with effort.",
+        "You should wait a little longer; the timing isn't quite right yet.",
+        "It's uncertain; perhaps fate has something unexpected in store.",
+        "The signs point to yes; keep an eye out for positive developments.",
+        "Don't count on it just yet; there may be obstacles to overcome.",
+        "It's a possibility, but it requires patience and perseverance.",
+        "The outlook is promising, but don't rush into anything.",
+        "The answer lies within your actions; your choices will shape the outcome."
+      ]
+    },
+    {
+      "tag": "clothes",
+      "patterns": ["what should i wear today?","give me a combination suggestion","what should i wear?"],
+      "responses": ["How about a classic combo: jeans and a comfy t-shirt?",
+        "How about a casual button-down shirt paired with chinos for a smart yet relaxed look?",
+        "Throw on a cozy oversized sweater and your favorite pair of jeans for a laid-back yet fashionable vibe.",
+        "Opt for a classic white shirt paired with black trousers for a timeless and gender-neutral outfit.",
+      "Today you can make a more assertive combination.",
+      "How about wearing biker style leather clothes?"]
+    },
+    {
+      "tag": "fairytail",
+      "patterns": ["Can you tell me a story",
+                  "Can you weave a tale about the future like a fairy tale?",
+                  "Could you tell me a story that will ignite my imagination?",
+                  "Would you craft a fairy tale about my future love life?",
+                  "I'd like to hear an epic tale about my career. Could you do that?",
+                  "Can you narrate my journey to achieving my goals like an adventure tale?",
+                  "Could you depict my life journey as a story filled with obstacles?",
+                  "Would you paint my future exams as a fairy tale of success?",
+                  "If you were to write a novel about my life, what kind of story would it be?",
+                  "Could you write a mythology tale predicting my future successes like a prophecy?",
+                  "Can you envision my future travels as an adventure-filled tale?"],
+      "responses": ["Cinderella:Cinderella grew up with an evil stepmother and stepsisters. They would not let her go to the prince's ball, but her fairy godmother made it happen with magic. Cinderella danced with the prince and they fell in love. Since she had to leave by midnight, she ran and lost one slipper. The prince found the slipper and searched for her. After he found her, they were married and lived happily ever after.",
+            "Elves and the Shoemaker:A shoemaker and his wife were very poor. One day they ran out of leather, so they went to bed. In the morning, they found a pair of shoes and a passerby bought them. The next night, another pair of shoes appeared. The third night, they hid and saw two elves making shoes. In gratitude, they made clothes for the elves, as winter was approaching. The elves were very happy and went on to help someone else.",
+            "Emperor's New Clothes:A vain emperor hired two people to make him some new clothes. They tricked him, telling him the cloth was not visible to people unfit for his position or who were very stupid. At first, the people pretended to see the clothes, but a child says that he is not wearing clothes and people start to agree. The emperor realized he was swindled but continues the parade anyway.",
+            "Frog Prince:A frog asked a princess why she was crying. She replied that she had dropped her golden ball into the pond. The princess promised anything if he would get it for her. The frog got the ball for her, and asked to eat from her plate, live in the castle, and that she be his friend. She agreed, and the frog turned into a prince as he had been under a spell from a witch. They married and lived happily ever after.",
+            "The Gingerbread Man:A little old woman baked a gingerbread man, and when she took him out of the oven, he ran away. The woman, her husband and some of their animals chased him. No one could catch him. He came to a river and a sly fox told him he could jump on his tail and he would take him across. He did and the fox went deeper and the gingerbread man had to jump on his back and then on his nose. When he got to his nose, the fox ate him.",
+            "Goldilocks and the Three Bears:Goldilocks saw a cabin in the woods and entered. There, she found three bowls of porridge. One was too cold, one too hot and the other just right, so she ate that one. Goldilocks then found three chairs, one too hard, one too soft, and the little one was just right and she sat in it and broke it. Of the three beds, one was too hard, one too soft and one just right, so she fell asleep. The bears came home and frightened her and she ran away.",
+            "Hansel and Gretel:Hansel and Gretel's wicked stepmother took them into the forest and left them there. Soon, the children came upon a house made of sweets and they ate some. The evil witch that lived there locked them in a cage and was going to make a soup out of them. Gretel got out of the cage and pushed the witch into the boiling water. The children found treasure at the house. They took it home and they were never hungry again.",
+            "Jack and the Bean Stalk:Jack took the family cow to sell and traded it for magic beans. His mother was angry and threw the beans out of the window. The next morning a giant beanstalk had grown. Jack climbed the beanstalk and found a giant there who had gold coins. Jack stole them and took them home. Later, Jack returned and saw a hen that laid golden eggs and he stole that, too. The third time he tried to steal a magic harp and the harp cried out. The giant chased Jack down the beanstalk, but Jack chopped it down and the giant fell.",
+            "Little Red Riding Hood:Little Red Riding Hood's mother sent her to Grandma's house with a basket of goodies and told her not to talk to strangers. A wolf asked her where she was going and she told him. He went to Grandma's house, locked Grandma in the cupboard and put on her clothes. Little Red Riding Hood was surprised at Grandma's eyes, ears and teeth, remarking on how big they were. The wolf said the teeth were better for eating, and he pounced. She screamed; when some woodcutters heard her cry, they ran in and rescued her.",
+            "The Pied Piper of Hamelin:The town of Hamelin was overrun with rats. The Pied Piper offered to get rid of the rats for 50 pounds, and the mayor agreed. He started playing his pipe. The rats followed him, and he led them into the harbor. He went back for his money, but the mayor only paid 20 pounds. The Pied Piper wanted to teach him a lesson, so he played his pipe and all the children followed him out of town. The mayor sent men to find the children, but they never found them again.",
+            "Pinocchio:Geppetto was a poor carpenter who carved a puppet that became alive. He named him Pinocchio and sent him to school. One day Pinocchio joined a puppet show, but the puppet master wanted him for firewood. He begged to be spared and told him about his poor father. He was spared, and the puppet master gave him five gold coins for his father. Pinocchio learned how to be honest and tell the truth and eventually became a real boy.",
+            "Princess and the Pea:A prince wanted to make sure he married a real princess. He devised a test for an unexpected guest who claimed she was a princess. He placed a pea beneath 20 mattresses and 20 feather beds, believing that only a princess could be sensitive enough to feel the small pea. The next morning, the princess said she did not sleep because of something hard in her bed. The two were married and lived happily ever after.",
+            "Sleeping Beauty:A princess was born, and an old fairy placed a spell that she would prick her finger on a spindle when she was 16 and die. The good fairies made another spell so that she would only sleep for 100 years and a prince would awaken her. When she was 16, the witch, disguised as an old lady, showed her a spinning wheel, and the princess touched the spindle and fell asleep. The good fairies decided to make everyone sleep. After 100 years, a prince from another land found her and kissed her. Everyone awoke, they married and lived happily ever after.",
+            "Snow White and the Seven Dwarfs:Snow White's evil stepmother wanted to be the fairest in the land and was jealous of Snow White's beauty. The stepmother ordered a huntsman to kill Snow White, but the huntsman spared her life. Snow White came upon a cottage that belonged to seven dwarfs, who let her stay. Soon the wicked stepmother found her, disguised herself and took her a poison apple. Snow White fell into a deep sleep, and the dwarfs made a crystal coffin for her. Prince Charming came by the cottage, saw her, kissed her, and she awoke. They were married and lived happily ever after.",
+            "Three Little Pigs:Three pigs set out to build their own houses. One pig built a house of straw and the second a house of sticks because they were lazy. The third took the time to build a strong house with bricks. When the big bad wolf came, he huffed and puffed and blew the straw and stick houses down. He couldn't blow down the brick house, and the pigs put a pot of boiling water in the fireplace. The wolf fell into it and died.",
+            "Thumbelina:A woman wished for a baby, even a tiny one. A fairy granted her wish and gave her a seed to plant. When it bloomed, a tiny baby was inside. A toad fell in love with the baby and kidnapped her. A swallow rescued the baby and took her away to warmer lands. There, Thumbelina found another tiny person just like her. He asked her to marry him and she became queen of the flowers.",
+            "Ugly Duckling:One duckling did not look like his brothers and sisters, and he was sad. He decided to run away. When he came across a cottage, he stayed there for a while but the children scared him. The duckling left and spent the winter in the pond. In the spring, he saw his reflection and realized he was a swan."
+      ]
+    }
+  ]
+}
